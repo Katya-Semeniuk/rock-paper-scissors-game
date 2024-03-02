@@ -30,7 +30,7 @@ footer {
 }
 
 #player-img {
-  width: 75%;
+  width: 50%;
 }
 
 .computer {
@@ -39,7 +39,7 @@ footer {
 }
 
 #computer-img {
-  width: 75%;
+  width: 50%;
 }
 .control {
   display: inline-block;
