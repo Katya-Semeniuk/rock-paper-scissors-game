@@ -33,7 +33,6 @@ function playGame(playerChoice) {
   computerImage.alt = choices[computerChoice];
 
   let result = checkWinner(choices[computerChoice], choices[playerChoice]);
-  updateScore(result);
 }
 
 /**
