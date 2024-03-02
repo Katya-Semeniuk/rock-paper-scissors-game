@@ -2,6 +2,9 @@ html {
   min-height: 100%;
 }
 
+header {
+  text-align: center;
+}
 footer {
   position: absolute;
   width: 100%;
@@ -9,4 +12,26 @@ footer {
   bottom: 0;
   min-height: 80px;
   background-color: tomato;
+  box-sizing: border-box;
+}
+.game-area {
+  width: 75%;
+  margin: 30px auto 0 auto;
+}
+.player {
+  float: left;
+  width: 45%;
+}
+
+#player-img {
+  width: 75%;
+}
+
+.computer {
+  float: right;
+  width: 45%;
+}
+
+#computer-img {
+  width: 75%;
 }
