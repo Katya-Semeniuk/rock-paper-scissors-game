@@ -1,9 +1,12 @@
 html {
   min-height: 100%;
 }
-
+body {
+  margin: 0;
+}
 header {
   text-align: center;
+  height: 50px;
 }
 footer {
   position: absolute;
@@ -11,12 +14,15 @@ footer {
   left: 0;
   bottom: 0;
   min-height: 80px;
-  background-color: tomato;
+  text-align: center;
+  background-color: #d9d5d4;
   box-sizing: border-box;
 }
+
 .game-area {
   width: 75%;
   margin: 30px auto 0 auto;
+  text-align: center;
 }
 .player {
   float: left;
@@ -34,4 +40,16 @@ footer {
 
 #computer-img {
   width: 75%;
+}
+.control {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+}
+
+.control:not(:last-child) {
+  margin-right: 5px;
+  @media screen and (min-width: 576px) {
+    margin-right: 12px;
+  }
 }
