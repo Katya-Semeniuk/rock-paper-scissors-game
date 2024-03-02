@@ -39,6 +39,8 @@ footer p {
 
 #player-img {
   width: 50%;
+  border-radius: 50%;
+  border: 3px solid black;
 }
 
 .computer {
@@ -48,6 +50,8 @@ footer p {
 
 #computer-img {
   width: 50%;
+  border-radius: 50%;
+  border: 3px solid black;
 }
 
 .btn-container {
