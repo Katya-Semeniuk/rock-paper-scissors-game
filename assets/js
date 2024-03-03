@@ -43,16 +43,28 @@ function checkWinner(computerChoice, playerChoice) {
   if (computerChoice === playerChoice) {
     return;
   } else if (playerChoice === "paper") {
-    return computerChoice === "scissors"
-      ? computerScore.textContent++
-      : playerScore.textContent++;
+    if (computerChoice === "scissors") {
+      computerScore.textContent++;
+      message.textContent = "Computer wins!";
+    } else {
+      playerScore.textContent++;
+      message.textContent = "Player wins!";
+    }
   } else if (playerChoice === "rock") {
-    return computerChoice === "paper"
-      ? computerScore.textContent++
-      : playerScore.textContent++;
+    if (computerChoice === "paper") {
+      message.textContent = "Computer wins!";
+      computerScore.textContent++;
+    } else {
+      message.textContent = "Player wins!";
+      playerScore.textContent++;
+    }
   } else if (playerChoice === "scissors") {
-    return computerChoice === "rock"
-      ? computerScore.textContent++
-      : playerScore.textContent++;
+    if (computerChoice === "rock") {
+      message.textContent = "Computer wins!";
+      computerScore.textContent++;
+    } else {
+      message.textContent = "Player wins!";
+      playerScore.textContent++;
+    }
   }
 }
