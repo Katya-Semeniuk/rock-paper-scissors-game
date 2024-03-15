@@ -10,6 +10,7 @@ p {
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  padding-top: 20px;
 }
 header {
   text-align: center;
@@ -32,23 +33,24 @@ footer h3 {
   font-size: 18px;
 }
 footer p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .game-area {
   width: 75%;
-  margin: 10px auto 10px auto;
+  margin: 15px auto 10px auto;
   text-align: center;
 }
 .game-area p {
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 .player {
   float: left;
   width: 45%;
 }
 h2 {
-  margin-bottom: 10px;
-  font-size: 22px;
+  margin-bottom: 15px;
+  font-size: 24px;
 }
 #player-img {
   width: 50%;
@@ -72,8 +74,9 @@ h2 {
 }
 .control {
   display: inline-block;
-  width: 70px;
-  height: 30px;
+  font-size: 16px;
+  width: 80px;
+  height: 40px;
   background-color: #abf9df;
   border-radius: 4px;
   cursor: pointer;
