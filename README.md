@@ -1,28 +1,42 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock-Paper-Scissors game
 
-Welcome,
+is an exciting game that almost everyone has known since childhood. If you find yourself in a situation where there is no one around to play Rock, Paper, Scissors with you, then this is the moment when you need to open this game and play with a virtual partner, i.e. a computer.
+All you need to do is select the Stone, Scissors, or Paper you want to play for each game by clicking on the button with the appropriate name. And the winner will be displayed on the screen and points will be counted.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+- ### Header
 
-## Codeanywhere Reminders
+The name of the game is indicated at the very top - Stone, Scissors, Paper. So users immediately understand what game they are going to play.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- ### Header
 
-`python3 -m http.server`
+## Deployment
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The site was deployed to GitHub pages.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The live link can be found [here](https://katya-semeniuk.github.io/rock-paper-scissors-game/)
 
-`http_server`
+To deploy on Github pages, the following steps can be taken:
+
+Log in to GitHub and locate the GitHub Repository
+
+1. Go to the settings tab
+2. Go to the GitHub Pages section
+3. Go to the Source section and select the Master Branch
+4. Once the page has refreshed, scroll back down to the GitHub Pages section to locate the now published site link.
+
+To fork the repository:
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository, on the right side of the page, select "Fork"
+3. You should now have a copy of the original repository in your GitHub account, and you can deploy it to GitHub pages following the steps above.
+
+---
 
 To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
 A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
 To log into the Heroku toolbelt CLI:
 
@@ -33,7 +47,3 @@ To log into the Heroku toolbelt CLI:
 5. Paste in your API key when asked
 
 You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
