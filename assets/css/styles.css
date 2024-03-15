@@ -75,7 +75,7 @@ h2 {
 .control {
   display: inline-block;
   font-size: 14px;
-  width: 75px;
+  width: 65px;
   height: 40px;
   background-color: #abf9df;
   border-radius: 4px;
@@ -91,6 +91,9 @@ h2 {
 }
 
 @media screen and (min-width: 576px) {
+  .control {
+    width: 80px;
+  }
   .control:not(:last-child) {
     margin-right: 12px;
   }
